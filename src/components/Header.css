@@ -5,3 +5,38 @@
     width: 100%;
     flex-wrap: wrap;
 }
+
+.container .content-card h2 {
+    color: #323142;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .content-card h2 span {
+    color: #5C4EAE;
+}
+
+.container .content-card button {
+    border: none;
+    background: #6C5FBC;
+    padding: 25px 100px;
+    border-radius: 5px;
+}
+
+.container .content-card a button {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 350px) {
+    .container .content-card button {
+        padding: 15px 50px;
+    }
+
+    .container .content-card a button {
+        font-size: 15px;
+    }
+}

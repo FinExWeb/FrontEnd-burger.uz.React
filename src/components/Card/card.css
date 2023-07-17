@@ -1,30 +1,30 @@
-.addedButton button {
+.MenuApp .card .addedButton button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.product-cards {
+.MenuApp .card .product-cards {
     display: flex;
 }
 
-.card {
+.MenuApp .card {
     margin: 20px 20px;
 }
 
-footer {
+.MenuApp .card footer {
     width: 100%;
 }
 
-footer .addedButton {
+.MenuApp .card footer .addedButton {
     width: 100%;
 }
 
-.addedButton img {
+.MenuApp .card .addedButton img {
     width: 30px;
 }
 
-.addedButton button {
+.MenuApp .card .addedButton button {
     width: 70px;
     height: 35px;
     background: rgba(242, 136, 110, 0.7);
@@ -69,7 +69,7 @@ footer .addedButton {
     margin: 0 5px;
 }
 
-.card {
+.MenuApp .card {
     width: 300px;
     height: 470px;
     background: #efedec;
@@ -77,10 +77,9 @@ footer .addedButton {
     padding: 20px;
     border: none;
     box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.20);
-
 }
 
-.card .card--img {
+.MenuApp .card .card--img {
     background: #F5F5F5;
     box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -90,7 +89,7 @@ footer .addedButton {
     height: 200px;
 }
 
-.card hr {
+.MenuApp .card hr {
     width: 266px;
     height: 0px;
     border: 2px solid rgba(0, 0, 0, 0.1);
@@ -136,26 +135,26 @@ footer .addedButton {
 }
 
 @media screen and (min-width: 800px) {
-    .card .card--img img {
+    .MenuApp .card .card--img img {
         width: 180px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .card .card--img img {
+    .MenuApp .card .card--img img {
         width: 150px;
     }
 
-    .card {
+    .MenuApp .card {
         width: 250px;
         height: 350px;
     }
 
-    .card hr {
+    .MenuApp .card hr {
         width: 210px;
     }
 
-    .content #foodName {
+    .MenuApp .card .content #foodName {
         font-size: 18px;
     }
 
@@ -171,7 +170,7 @@ footer .addedButton {
         margin: 5px 0;
     }
 
-    .addedButton button {
+    .MenuApp .card .addedButton button {
         width: 60px;
         height: 25px;
         font-size: 13px;
@@ -180,11 +179,11 @@ footer .addedButton {
         align-items: center;
     }
 
-    .addedButton img {
+    .MenuApp .card .addedButton img {
         width: 16px;
     }
 
-    .star {
+    .MenuApp .card .star {
         width: 40px;
         height: 20px;
     }

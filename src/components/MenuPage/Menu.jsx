@@ -1,21 +1,16 @@
 import React from 'react'
-import NavbarMenu from './Navbar/Navbar'
-import HeaderApp from './Header/HeaderApp'
-import Card from './Card/Card'
-import './Header.css'
+import NavbarMenu from '../Navbar/Navbar'
+import Card from '../Card/Card'
+import './Menu.css'
 import { Link } from 'react-router-dom'
-function Header() {
+function Menu() {
     return (
         <div className='container'>
             <div className="navbarMenu">
                 <NavbarMenu />
             </div>
-            <div className="header">
-                <HeaderApp />
-            </div>
-            <hr />
             <div className="content-card my-5">
-                <h2>OVQATLAR <span>MENYUSI</span></h2>
+                <h2>ASOSIY OVQATLAR <span>MENYUSI</span></h2>
             </div>
             <hr />
             <div className="foods my-5">
@@ -24,9 +19,9 @@ function Header() {
                 <Card />
             </div>
             <hr />
-            <div className="content-card my-5 d-flex justify-content-center align-items-center">
-                <Link to='/menu'>
-                    <button>BARCHASINI KO'RISH</button>
+            <div className="order my-4">
+                <Link to='/order' className='d-flex justify-content-center'>
+                    <button>BUYURTMALARNI KO'RISH</button>
                 </Link>
             </div>
             <hr />
@@ -34,4 +29,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Menu

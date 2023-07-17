@@ -1,0 +1,19 @@
+.foods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container .order a button {
+    border: none;
+    padding: 16px 23px;
+    background: #6C5FBC;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
+.container .order a {
+    text-decoration: none;
+}
