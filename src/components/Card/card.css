@@ -1,0 +1,199 @@
+.addedButton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-cards {
+    display: flex;
+}
+
+.card {
+    margin: 20px 20px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer .addedButton {
+    width: 100%;
+}
+
+.addedButton img {
+    width: 30px;
+}
+
+.addedButton button {
+    width: 70px;
+    height: 35px;
+    background: rgba(242, 136, 110, 0.7);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .2s;
+    margin: 0 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-family: sans-serif;
+}
+
+.addedButton button:active {
+    transform: scale(1.1);
+}
+
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    background: rgba(255, 214, 0, 0.18);
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.star i {
+    color: #FFB800;
+}
+
+.star span {
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.card {
+    width: 300px;
+    height: 470px;
+    background: #efedec;
+    border-radius: 15px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.20);
+
+}
+
+.card .card--img {
+    background: #F5F5F5;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.card hr {
+    width: 266px;
+    height: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+}
+
+.content #foodName {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    color: #039600;
+}
+
+#foodPrice {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #024B00;
+}
+
+#food-information {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+#food-information span {
+    color: #CC6666;
+}
+
+.info {
+    margin: 15px 0;
+}
+
+@media screen and (min-width: 800px) {
+    .card .card--img img {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card .card--img img {
+        width: 150px;
+    }
+
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+
+    .card hr {
+        width: 210px;
+    }
+
+    .content #foodName {
+        font-size: 18px;
+    }
+
+    #foodPrice {
+        font-size: 15px;
+    }
+
+    #food-information {
+        font-size: 10px;
+    }
+
+    .info {
+        margin: 5px 0;
+    }
+
+    .addedButton button {
+        width: 60px;
+        height: 25px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .addedButton img {
+        width: 16px;
+    }
+
+    .star {
+        width: 40px;
+        height: 20px;
+    }
+
+    .star span {
+        font-size: 10px;
+    }
+
+    .star i {
+        font-size: 10px;
+    }
+}
