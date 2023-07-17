@@ -1,0 +1,42 @@
+.bg {
+    background: #EAEAEA;
+    width: 100%;
+    padding: 30px;
+    max-height: 280px;
+}
+
+.bg .internet-controller .icon a {
+    margin: 0 10px;
+}
+
+.bg .internet-controller .icon a i {
+    font-size: 20px;
+    color: black;
+    transition: 0.2s;
+}
+
+.bg .internet-controller p {
+    color: #1a1919;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-family: sans-serif;
+}
+
+.bg .internet-controller p span {
+    color: #6C5FBC;
+}
+
+.bg .internet-controller .icon a i:hover {
+    color: #6C5FBC;
+}
+
+@media screen and (max-width: 900px) {
+    .bg {
+        max-height: 325px;
+    }
+
+    .bg .internet-controller {
+        flex-direction: column;
+        text-align: center;
+    }
+}

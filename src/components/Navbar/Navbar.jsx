@@ -31,18 +31,13 @@ const NavbarMenu = () => {
                     </li>
                     {/*  */}
                     <li className='d-flex align-items-center'>
-                        <Link className='text-decoration-none' to='/price'>Narxlar</Link>
-                        <img style={{ width: '25px', margin: '0 10px' }} src={pricing} alt="price" />
+                        <Link className='text-decoration-none' to='/news'>Yangiliklar</Link>
+                        <img style={{ width: '25px', margin: '0 10px' }} src={cooperate} alt="cooperate" />
                     </li>
                     {/*  */}
                     <li className='d-flex align-items-center'>
                         <Link className='text-decoration-none' to='/problem'>Shikoyat</Link>
                         <img style={{ width: '25px', margin: '0 10px' }} src={email} alt="email" />
-                    </li>
-                    {/*  */}
-                    <li className='d-flex align-items-center'>
-                        <Link className='text-decoration-none' to='/news'>Yangiliklar</Link>
-                        <img style={{ width: '25px', margin: '0 10px' }} src={cooperate} alt="cooperate" />
                     </li>
                 </ul>
 
