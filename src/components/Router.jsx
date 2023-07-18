@@ -7,6 +7,7 @@ import Problem from './Problem/Problem'
 import LoginForm from './Authorization/Login/Login'
 import Register from './Authorization/Register/Regisater'
 import Reset from './Authorization/ResetPass/ResetPass'
+import News from './News/News'
 function Router() {
     return (
         <div>
@@ -16,6 +17,7 @@ function Router() {
                 <Route path='/order' element={<Order />} />
                 <Route path='/problem' element={<Problem />} />
                 <Route path='/login' element={<LoginForm />} />
+                <Route path='/news' element={<News />} />
                 <Route path='/register' element={<Register />} />
                 <Route path='/reset' element={<Reset />} />
             </Routes>
