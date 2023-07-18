@@ -31,7 +31,7 @@ const NavbarMenu = () => {
                     </li>
                     {/*  */}
                     <li className='d-flex align-items-center'>
-                        <Link className='text-decoration-none' to='/news'>Yangiliklar</Link>
+                        <Link className='text-decoration-none' to='/error'>Yangiliklar</Link>
                         <img style={{ width: '25px', margin: '0 10px' }} src={cooperate} alt="cooperate" />
                     </li>
                     {/*  */}

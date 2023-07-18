@@ -1,0 +1,129 @@
+.container .cardForm .wrapper header {
+    margin: 50px 0;
+}
+
+.container .cardForm .wrapper header span {
+    color: #323142;
+    font-family: Poppins, sans-serif;
+    font-size: 35.25px;
+    font-weight: 600;
+    letter-spacing: -1.41px;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.container .cardForm .wrapper form .field .input-area input {
+    padding: 25px 20px;
+    width: 400px;
+    border: none;
+    border-radius: 14.275px;
+    background: #F5F5F5;
+    margin: 10px 0;
+    outline: none;
+
+    color: #c2c3cb;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.167px;
+    text-transform: uppercase;
+}
+
+.container .cardForm .wrapper form .pass-txt {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.container .cardForm .wrapper form .pass-txt a {
+    color: #6C5FBC;
+    font-family: sans-serif;
+    font-size: 15.564px;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+    text-decoration: none;
+}
+
+.container .cardForm .wrapper form .buttonsSubmit input {
+    border-radius: 15.564px;
+    background: #6C5FBC;
+    padding: 20px 20px;
+    width: 400px;
+    border: none;
+
+    color: #F3F5F6;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.534px;
+    text-transform: uppercase;
+}
+
+.container .cardForm .wrapper .sign-txt {
+    margin: 20px 0;
+}
+
+.container .cardForm .wrapper .sign-txt p {
+    color: #CBCBCB;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.189px;
+    text-align: center;
+}
+
+.container .cardForm .wrapper .sign-txt p a {
+    text-decoration: none;
+    color: #6C5FBC;
+}
+
+.container .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .footer p {
+    color: #718096;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 450px) {
+    .container .cardForm .wrapper form .field .input-area input {
+        padding: 23px 20px;
+        width: 350px;
+    }
+
+    .container .cardForm .wrapper form .buttonsSubmit input {
+        padding: 22px 20px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .container .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container .cardForm .wrapper header span {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container .cardForm .wrapper form .field .input-area input {
+        padding: 23px 20px;
+        width: 300px;
+    }
+
+    .container .cardForm .wrapper form .buttonsSubmit input {
+        padding: 22px 20px;
+        width: 300px;
+    }
+}
