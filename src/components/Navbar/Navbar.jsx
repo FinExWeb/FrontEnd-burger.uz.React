@@ -31,11 +31,6 @@ const NavbarMenu = () => {
                     </li>
                     {/*  */}
                     <li className='d-flex align-items-center'>
-                        <Link className='text-decoration-none' to='/news'>Yangiliklar</Link>
-                        <img style={{ width: '25px', margin: '0 10px' }} src={cooperate} alt="cooperate" />
-                    </li>
-                    {/*  */}
-                    <li className='d-flex align-items-center'>
                         <Link className='text-decoration-none' to='/problem'>Shikoyat</Link>
                         <img style={{ width: '25px', margin: '0 10px' }} src={email} alt="email" />
                     </li>
@@ -85,11 +80,6 @@ const NavbarMenu = () => {
                                 <li className='d-flex align-items-center'>
                                     <Link className='text-decoration-none' to='/problem'>Shikoyat</Link>
                                     <img style={{ width: '25px', margin: '0 10px' }} src={email} alt="email" />
-                                </li>
-                                {/*  */}
-                                <li className='d-flex align-items-center'>
-                                    <Link className='text-decoration-none' to='/news'>Yangiliklar</Link>
-                                    <img style={{ width: '25px', margin: '0 10px' }} src={cooperate} alt="cooperate" />
                                 </li>
                             </ul>
 
