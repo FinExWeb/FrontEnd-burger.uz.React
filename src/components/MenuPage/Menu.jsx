@@ -17,8 +17,6 @@ function Menu() {
                 <hr />
                 <div className="foods my-5">
                     <Card />
-                    <Card />
-                    <Card />
                 </div>
                 <hr />
                 <div className="order my-4">

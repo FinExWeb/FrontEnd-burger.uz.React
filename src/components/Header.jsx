@@ -22,8 +22,6 @@ function Header() {
                 <hr />
                 <div className="foods my-5">
                     <Card />
-                    <Card />
-                    <Card />
                 </div>
                 <hr />
                 <div className="content-card my-5 d-flex justify-content-center align-items-center">

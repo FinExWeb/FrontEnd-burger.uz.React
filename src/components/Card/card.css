@@ -1,3 +1,10 @@
+.MenuApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .MenuApp .card .addedButton button {
     display: flex;
     justify-content: center;

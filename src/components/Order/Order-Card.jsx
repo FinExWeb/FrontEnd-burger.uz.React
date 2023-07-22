@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import './Order-Card.css'
 import palov from '../../img/palov.png'
+import home from '../../img/home-icon.svg'
+import product from '../../img/product-icon.svg'
+import cart from '../../img/icon/cart.svg'
+import check from '../../img/icon/check.svg'
+import NavbarMenu from '../Navbar/Navbar'
+
 function OrderCard() {
     const [count, setCount] = useState(0);
     const handleAddCount = () => {
@@ -9,6 +15,10 @@ function OrderCard() {
     const handleClearCount = () => {
         setCount(count - 1)
     }
+    const [order, setOrder] = useState(false)
+    const orderclikcbtn = (() => {
+        setOrder(prev => !prev)
+    })
     return (
         <>
             <svg xmlns="http://www.w3.org/2000/svg" width="47" height="45" viewBox="0 0 47 45" fill="none">
@@ -47,9 +57,73 @@ function OrderCard() {
                     <h3>450.000 so'm</h3>
                 </div>
                 <div className="btns my-4 d-flex justify-content-center">
-                    <button>BUYURTMALARNI AMALGA OSHIRISH</button>
+                    <button onClick={orderclikcbtn}>BUYURTMALARNI AMALGA OSHIRISH</button>
                 </div>
             </div>
+
+            {
+                order ? (
+                    <div className="container">
+                        <div className="modal--button ActiveOrderAimation">
+                            <div className="d-flex justify-content-end">
+                                <h4 onClick={orderclikcbtn}><i className='fa fa-close'></i></h4>
+                            </div>
+                            <nav>
+                                <p>YETKAZIB BERISH HIZMATI</p>
+                            </nav>
+                            <main>
+                                <div className="buttons">
+                                    <div className="button">
+                                        <img src={home} alt="home" />
+                                        <p>Uyga yetkazish</p>
+                                    </div>
+                                    <div className="button">
+                                        <img src={product} alt="" />
+                                        <p>Uyga yetkazish</p>
+                                    </div>
+                                </div>
+                                <form>
+                                    <div className="person--name">
+                                        <section>
+                                            <label htmlFor="name">Ismingizni kiriting</label>
+                                            <label htmlFor="name">Aniq ma’lumot!</label>
+                                        </section>
+                                        <input type="text" placeholder='Ismingizni kiriting' id='name' />
+                                    </div>
+                                    <div className="person--surname">
+                                        <section>
+                                            <label htmlFor="surname">Familyangizni kiriting</label>
+                                            <label htmlFor="surname">Aniq ma’lumot!</label>
+                                        </section>
+                                        <input type="text" placeholder='Familyangizni kiriting' id='surname' />
+                                    </div>
+                                    <div className="person--phone">
+                                        <section>
+                                            <label htmlFor="phone">Telefon raqamingizni kiriting</label>
+                                            <label htmlFor="phone">Aniq ma’lumot!</label>
+                                        </section>
+                                        <input type="number" placeholder='Telefon raqamingizni kiriting' id='phone' />
+                                    </div>
+                                </form>
+                            </main>
+
+                            <footer>
+                                <div className="payment">
+                                    <img src={cart} alt="cart" />
+                                    <p>Yetkazilganidan keyin to’lov amalaga oshiriladi</p>
+                                </div>
+
+                                <div className="payment--button">
+                                    <div className="cart">
+                                        <img src={check} alt="cart" />
+                                    </div>
+                                    <button>YUBORISH</button>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                ) : ''
+            }
         </>
     )
 }
