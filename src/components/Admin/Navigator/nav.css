@@ -1,0 +1,42 @@
+.navbar-app {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-app h3 {
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar-app form {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-app form label {
+    border-radius: 5px;
+    border: 1.5px solid #D9D9D9;
+    padding: 10px;
+    height: 45px;
+    display: flex;
+    margin: 0 10px;
+}
+
+.navbar-app form input {
+    border-radius: 5px;
+    border: 1.5px solid #D9D9D9;
+    padding: 10px;
+    background: none;
+    height: 45px;
+    outline: none;
+    color: #868686;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.52px;
+}

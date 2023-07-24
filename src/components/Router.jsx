@@ -8,6 +8,7 @@ import LoginForm from './Authorization/Login/Login'
 import Register from './Authorization/Register/Regisater'
 import Reset from './Authorization/ResetPass/ResetPass'
 import News from './News/News'
+import Admin from './Admin/Admin'
 function Router() {
     return (
         <div>
@@ -20,6 +21,7 @@ function Router() {
                 <Route path='/news' element={<News />} />
                 <Route path='/register' element={<Register />} />
                 <Route path='/reset' element={<Reset />} />
+                <Route path='/myadmin' element={<Admin />} />
             </Routes>
         </div>
     )

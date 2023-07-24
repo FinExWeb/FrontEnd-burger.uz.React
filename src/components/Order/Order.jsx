@@ -16,7 +16,6 @@ export default function Order() {
                 <div className="orders">
                     <OrderCard />
                 </div>
-              
             </div>
         </>
     )

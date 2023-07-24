@@ -15,7 +15,7 @@ const Card = ({ food }) => {
             })
     }, []);
 
-    const handleAddControlClick = (index, id) => {
+    const handleAddControlClick = (index, _id) => {
         setFoodCard(prevState => {
             const updatedFoodCard = [...prevState];
             updatedFoodCard[index].count += 1;
@@ -23,7 +23,7 @@ const Card = ({ food }) => {
         });
 
         // Tanınan ürünün ID'sini "shop" dizisine ekleyelim
-        const selectedProduct = FoodCard.find(el => el.id === id);
+        const selectedProduct = FoodCard.find(el => el._id === _id);
         if (selectedProduct) {
             const shop = JSON.parse(localStorage.getItem('shop') || '[]');
             shop.push(selectedProduct);
@@ -60,7 +60,7 @@ const Card = ({ food }) => {
 
                                 <div className="addedButton d-flex align-items-center justify-content-center">
                                     {/* Add button */}
-                                    <button onClick={() => handleAddControlClick(index, el.id)}>
+                                    <button className='addbuton' onClick={() => handleAddControlClick(index, el._id)}>
                                         <img src={add} alt="add" />
                                     </button>
 

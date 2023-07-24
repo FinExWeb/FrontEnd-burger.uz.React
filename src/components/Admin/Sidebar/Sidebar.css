@@ -1,0 +1,51 @@
+.app-body {
+    max-width: 500px;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.21);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-body .routes a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    height: 100px;
+    width: 450px;
+    transition: 0.2s;
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+}
+
+.app-body .routes a:hover {
+    border-radius: 5px;
+    background: #FFF;
+    transform: translateX(15px);
+    box-shadow: 10px 10px 25px -8px rgba(0, 0, 0, 0.30);
+    border: none;
+}
+
+.hover {
+    border-radius: 5px;
+    background: #FFF;
+    transform: translateX(15px);
+    box-shadow: 10px 10px 25px -8px rgba(0, 0, 0, 0.30);
+    border: none;
+}
+
+.app-body .routes img {
+    width: 33px;
+    height: 33px;
+    margin: 0 40px;
+}
+
+.app-body .routes span {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
