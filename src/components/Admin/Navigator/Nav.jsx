@@ -5,7 +5,7 @@ import './nav.css'
 function Nav() {
     return (
         <>
-            <div className="navbar-app">
+            <div className="navbar-app my-3">
                 <h3>ADMIN BO'LIMI</h3>
                 <form>
                     <label htmlFor="Search">

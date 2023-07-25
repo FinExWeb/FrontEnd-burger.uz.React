@@ -25,6 +25,7 @@
     height: 45px;
     display: flex;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .navbar-app form input {
@@ -39,4 +40,8 @@
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.52px;
+}
+
+.navbar-app .user{
+    cursor: pointer;
 }
