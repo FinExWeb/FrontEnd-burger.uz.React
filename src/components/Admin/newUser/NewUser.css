@@ -1,0 +1,31 @@
+.user--cart-map {
+    width: 315px;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user--cart-map section .fullname-sec {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user--cart-map section small {
+    color: #AAA;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cart-added-admins .col span {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}

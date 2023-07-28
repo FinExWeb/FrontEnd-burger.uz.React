@@ -1,0 +1,182 @@
+.container-fluid .row .col .main .cart--edit--profils {
+    display: flex;
+    width: 604px;
+    padding: 24px;
+    flex-direction: column;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .nav--text {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center !important;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .user--information span {
+    color: #064061;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .user--information .user--cart {
+    width: 315px;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    background: #FAFAFA;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .user--information .user--cart img {
+    margin: 0 5px;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .user--information span {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .user--information .user--cart section h3 {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-fluid .row .col .main .cart--edit--profils .user--information .user--cart section small {
+    color: #AAA;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container-fluid .forms {
+    width: 100%;
+}
+
+.container-fluid .forms .col .row .col {
+    margin: 10px;
+}
+
+.container-fluid .forms .col .row .col label {
+    margin: 10px 0;
+}
+
+.container-fluid .forms .col .row .col input {
+    display: flex;
+    padding: 20px 28px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FAFAFA;
+    border: none;
+    outline: none;
+
+    color: #AAA;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.container-fluid .forms button {
+    border-radius: 12px;
+    background: #4EB7F2;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.main .cart-edit-human .attention {
+    background: red;
+    margin: 15px 0;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 0px 110px;
+    max-width: 604px;
+}
+
+.main .cart-edit-human .attention p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main .credit--cart {
+    display: flex;
+    width: 468px;
+    padding: 24px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    height: 815px;
+}
+
+.main .credit--cart h3 {
+    color: #FB471D;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main .credit--cart .input--carts h3 {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main .credit--cart .date span {
+    color: #AAA;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main .credit--cart .weeking--cart .col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background: #FAFAFA;
+    padding: 16px;
+    margin: 5px 0;
+}
+
+.main .credit--cart .weeking--cart .col section h3 {
+    color: #064061;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main .credit--cart .weeking--cart .col section small {
+    color: #AAA;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main .credit--cart .weeking--cart .col h2 {
+    color: #F3735E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+}

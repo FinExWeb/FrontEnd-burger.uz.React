@@ -54,6 +54,7 @@ function OrderCard() {
         if (shops && productCounts[productId]) {
             return productCounts[productId];
         }
+        // 770456260
         return 0;
     };
 
@@ -111,62 +112,55 @@ function OrderCard() {
             {
                 order ? (
                     <div className="container">
-                        <div className="modal--button ActiveOrderAimation">
-                            <div className="d-flex justify-content-end">
-                                <h4 onClick={orderclikcbtn}><i className='fa fa-close'></i></h4>
+                        <div className="row modal--button">
+                            <div className="col">
+                                <h2 onClick={orderclikcbtn} style={{ cursor: 'pointer' }}>
+                                    <i className='fa fa-close'></i>
+                                </h2>
                             </div>
-                            <nav>
-                                <p>YETKAZIB BERISH HIZMATI</p>
-                            </nav>
-                            <main>
-                                <div className="buttons">
-                                    <div className="button">
-                                        <img src={home} alt="home" />
-                                        <p>Uyga yetkazish</p>
-                                    </div>
-                                    <div className="button">
-                                        <img src={product} alt="" />
-                                        <p>Uyga yetkazish</p>
-                                    </div>
-                                </div>
-                                <form>
-                                    <div className="person--name">
-                                        <section>
-                                            <label htmlFor="name">Ismingizni kiriting</label>
-                                            <label htmlFor="name">Aniq ma’lumot!</label>
-                                        </section>
-                                        <input type="text" placeholder='Ismingizni kiriting' id='name' />
-                                    </div>
-                                    <div className="person--surname">
-                                        <section>
-                                            <label htmlFor="surname">Familyangizni kiriting</label>
-                                            <label htmlFor="surname">Aniq ma’lumot!</label>
-                                        </section>
-                                        <input type="text" placeholder='Familyangizni kiriting' id='surname' />
-                                    </div>
-                                    <div className="person--phone">
-                                        <section>
-                                            <label htmlFor="phone">Telefon raqamingizni kiriting</label>
-                                            <label htmlFor="phone">Aniq ma’lumot!</label>
-                                        </section>
-                                        <input type="number" placeholder='Telefon raqamingizni kiriting' id='phone' />
-                                    </div>
-                                </form>
-                            </main>
 
-                            <footer>
-                                <div className="payment">
-                                    <img src={cart} alt="cart" />
-                                    <p>Yetkazilganidan keyin to’lov amalaga oshiriladi</p>
+                            <div className="row buttons">
+                                <div className="col border-app align-items-center">
+                                    <img src={home} alt="home" />
+                                    <span>Uyga <br />
+                                        yetkazish</span>
                                 </div>
+                                <div className="col border-app align-items-center">
+                                    <img className='product' src={product} alt="product" />
+                                    <span>Offisdan <br />
+                                        olib ketish</span>
+                                </div>
+                            </div>
 
-                                <div className="payment--button">
-                                    <div className="cart">
-                                        <img src={check} alt="cart" />
-                                    </div>
+                            <div className="row forms">
+                                <div className="col">
+                                    <label htmlFor="name">Ismingizni kiriting</label>
+                                    <input type="text" id='name' placeholder='Ismingizni kiriting' />
+                                </div>
+                                <div className="col">
+                                    <label htmlFor="surname">Familyanginzi kiriting</label>
+                                    <input type="text" id='surname' placeholder='Familyanginzi kiriting' />
+                                </div>
+                                <div className="col">
+                                    <label htmlFor="phone">Raqamingizni kiriting</label>
+                                    <input type="text" id='phone' placeholder='Telefon raqamingizni kiriting' />
+                                </div>
+                            </div>
+
+                            <div className="row submit">
+                                <div className="col cartIs">
+                                    <img src={cart} alt="" cart />
+                                    <p>Yetkazilganidan <br />
+                                        keyin to’lov <br />
+                                        amalaga oshiriladi</p>
+                                </div>
+                                <div className="col buttonSubmit">
+                                    <button>
+                                        <img src={check} alt="check" />
+                                    </button>
                                     <button>YUBORISH</button>
                                 </div>
-                            </footer>
+                            </div>
                         </div>
                     </div>
                 ) : ''

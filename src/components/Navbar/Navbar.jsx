@@ -4,7 +4,6 @@ import home from '../../img/home.svg'
 import menuApp from '../../img/menuApp.svg'
 import pricing from '../../img/pricing.svg'
 import email from '../../img/email.svg'
-import cooperate from '../../img/cooperate.svg'
 import bars from '../../img/bars.svg'
 import logo from '../../img/Logo.svg'
 import './Navbar.css'
@@ -41,7 +40,7 @@ const NavbarMenu = () => {
                         <Link className='text-decoration-none' to='/login'>Kirish</Link>
                     </button>
                     <button className='borderNaN'>
-                        <Link className='text-decoration-none' to='/login'>Yaratish</Link>
+                        <Link className='text-decoration-none' to='/register'>Yaratish</Link>
                     </button>
                 </div>
             </div>
@@ -88,7 +87,7 @@ const NavbarMenu = () => {
                                     <Link className='text-decoration-none' to='/login'>Kirish</Link>
                                 </button>
                                 <button className='borderNaN'>
-                                    <Link className='text-decoration-none' to='/login'>Yaratish</Link>
+                                    <Link className='text-decoration-none' to='/register'>Yaratish</Link>
                                 </button>
                             </div>
                         </div>

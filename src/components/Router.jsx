@@ -9,6 +9,8 @@ import Register from './Authorization/Register/Regisater'
 import Reset from './Authorization/ResetPass/ResetPass'
 import News from './News/News'
 import Admin from './Admin/Admin'
+import Dashboard from './Admin/DashboardRoutes/Dashboard'
+import NewUser from './Admin/newUser/NewUser'
 function Router() {
     return (
         <div>
@@ -22,6 +24,8 @@ function Router() {
                 <Route path='/register' element={<Register />} />
                 <Route path='/reset' element={<Reset />} />
                 <Route path='/myadmin' element={<Admin />} />
+                <Route path='/myadmin/dashboard' element={<Dashboard />} />
+                <Route path='/myadmin/newuser' element={<NewUser />} />
             </Routes>
         </div>
     )
