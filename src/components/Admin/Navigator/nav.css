@@ -45,3 +45,9 @@
 .navbar-app .user{
     cursor: pointer;
 }
+
+@media screen and (max-width: 1678px) {
+    .navbar-app {
+        justify-content: space-evenly;
+    }
+}

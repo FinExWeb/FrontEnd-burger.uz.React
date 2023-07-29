@@ -7,7 +7,7 @@ function CreditCart() {
             <div className="credit--cart mx-5">
                 <h3>Sinov rejimda!</h3>
                 <section>
-                    <img src={credit} alt="" />
+                    <img id='credit-app' src={credit} alt="" />
                 </section>
                 <hr />
                 <section className='input--carts'>

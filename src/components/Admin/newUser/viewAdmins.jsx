@@ -1,7 +1,7 @@
 import React from 'react'
 import user from '../DashboardRoutes/img/user-cart.svg'
 
-function ViewAdmins() {
+function ViewAdmins({users}) {
     return (
         <>
             <div className="credit--cart mx-5">
@@ -9,21 +9,17 @@ function ViewAdmins() {
                 <div className="cart-added-admins">
                     <div className="col">
                         <span className='my-2 d-block'>ADMINLAR</span>
-                        <div className="user--cart-map">
-                            <img src={user} alt="user" />
-                            <section>
-                                <h3 className='fullname-sec'>ism va familiya</h3>
-                                <small>user@gmail.com</small>
-                            </section>
-                        </div>
-                        {/*  */}
-                        <div className="user--cart-map">
-                            <img src={user} alt="user" />
-                            <section>
-                                <h3 className='fullname-sec'>ism va familiya</h3>
-                                <small>user@gmail.com</small>
-                            </section>
-                        </div>
+                        {
+                            users ? users.map(el => (
+                                <div className="user--cart-map">
+                                    <img src={user} alt="user" />
+                                    <section>
+                                        <h3 className='fullname-sec'>{el.name} {el.surname}</h3>
+                                        <small>{el.email}</small>
+                                    </section>
+                                </div>
+                            )) : ''
+                        }
                     </div>
                 </div>
             </div>

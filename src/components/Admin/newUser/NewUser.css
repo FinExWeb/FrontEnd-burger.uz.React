@@ -29,3 +29,68 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1788px) {
+    .container-fluid .row .col .main .cart--edit--profils {
+        width: 530px;
+    }
+
+    .main .cart-edit-human .attention {
+        width: 530px;
+    }
+
+    .main .cart-edit-human .attention p {
+        font-size: 20px;
+    }
+
+    .main .credit--cart {
+        height: 745px;
+    }
+
+    .container-fluid .forms .col .row .col input {
+        padding: 16px 10px;
+    }
+
+    .container-fluid .forms button {
+        padding: 10px 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1678px) {
+    .container-fluid .row .col .main .cart--edit--profils {
+        width: 490px;
+    }
+
+    .main .cart-edit-human .attention {
+        width: 490px;
+        padding: 0;
+    }
+
+    .main .cart-edit-human .attention p {
+        font-size: 20px;
+    }
+
+    .main .credit--cart {
+        height: 714px;
+        width: 400px;
+    }
+
+    .container-fluid .forms .col .row .col input {
+        padding: 16px 5px;
+    }
+
+    .container-fluid .forms button {
+        padding: 10px 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .user--cart-map {
+        width: 280px;
+        padding: 9px;
+    }
+}

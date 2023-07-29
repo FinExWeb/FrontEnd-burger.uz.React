@@ -6,7 +6,7 @@ const Card = ({ food }) => {
     const [FoodCard, setFoodCard] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/foods')
+        fetch('https://burgeruz.onrender.com/foods')
             .then(res => res.json())
             .then(data => {
                 // Veri gelmeden önceyken her kartın sayacını 0 olarak ayarlayalım.
@@ -38,7 +38,7 @@ const Card = ({ food }) => {
                     FoodCard.map((el, index) => (
                         <div className="card d-flex" key={el.foodName}>
                             <div className="card--img">
-                                <img src={'http://localhost:5000/images/' + el.img} alt="palov" />
+                                <img src={'https://burgeruz.onrender.com/images/' + el.img} alt="palov" />
                             </div>
                             <hr />
                             <div className="content">

@@ -49,3 +49,60 @@
     font-size: 22px;
     font-weight: 600;
 }
+
+
+@media screen and (max-width: 1788px) {
+    .app-body .routes a {
+        height: 85px;
+        width: 405px;
+    }
+
+    .app-body .routes span {
+        font-size: 19px;
+    }
+
+    .app-body {
+        width: 475px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .app-body .routes a {
+        height: 75px;
+        width: 320px;
+    }
+
+    .app-body .routes span {
+        font-size: 15px;
+    }
+
+    .app-body {
+        width: 400px;
+    }
+    .app-body .routes img{
+        width: 23px;
+        height: 23px;
+        margin: auto 25px;
+    }
+}
+
+
+@media screen and (max-width: 1420px) {
+    .app-body .routes a {
+        height: 75px;
+        width: 320px;
+    }
+
+    .app-body .routes span {
+        font-size: 15px;
+    }
+
+    .app-body {
+        width: 400px;
+    }
+    .app-body .routes img{
+        width: 23px;
+        height: 23px;
+        margin: auto 25px;
+    }
+}

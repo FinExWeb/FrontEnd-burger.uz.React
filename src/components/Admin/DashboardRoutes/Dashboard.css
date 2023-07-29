@@ -180,3 +180,41 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1656px) {
+    .credit--cart section #credit-app {
+        width: 355px;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .main .credit--cart .weeking--cart .col {
+        width: 355px;
+    }
+
+    .main .credit--cart .weeking--cart .col section h3 {
+        font-size: 13px;
+    }
+
+    .main .credit--cart .weeking--cart .col section small {
+        font-size: 13px;
+    }
+
+    .main .credit--cart .weeking--cart .col h2 {
+        font-size: 15px;
+    }
+
+    .credit--cart section #credit-app {
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 1392px) {
+    .main .credit--cart .weeking--cart .col {
+        width: 320px;
+    }
+
+    .credit--cart section #credit-app {
+        width: 297px;
+    }
+}

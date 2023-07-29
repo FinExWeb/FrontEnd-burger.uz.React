@@ -13,7 +13,7 @@ function Dashboard() {
                     <div className="col-4" style={{ padding: '0' }}>
                         <Sidebar />
                     </div>
-                    <div className="col">
+                    <div className="col col-xl-8">
                         <Nav />
                         <div className="main my-5 d-flex">
                             <div className='cart-edit-human'>
