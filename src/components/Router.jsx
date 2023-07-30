@@ -11,6 +11,7 @@ import News from './News/News'
 import Admin from './Admin/Admin'
 import Dashboard from './Admin/DashboardRoutes/Dashboard'
 import NewUser from './Admin/newUser/NewUser'
+import ViewOrders from './Admin/ViewOrders/ViewOrder'
 function Router() {
     return (
         <div>
@@ -26,6 +27,7 @@ function Router() {
                 <Route path='/myadmin' element={<Admin />} />
                 <Route path='/myadmin/dashboard' element={<Dashboard />} />
                 <Route path='/myadmin/newuser' element={<NewUser />} />
+                <Route path='/myadmin/orders' element={<ViewOrders />} />
             </Routes>
         </div>
     )

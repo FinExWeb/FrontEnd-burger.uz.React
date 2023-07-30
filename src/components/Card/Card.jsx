@@ -9,7 +9,6 @@ const Card = ({ food }) => {
         fetch('https://burgeruz.onrender.com/foods')
             .then(res => res.json())
             .then(data => {
-                // Veri gelmeden önceyken her kartın sayacını 0 olarak ayarlayalım.
                 const foodDataWithCount = data.map(item => ({ ...item, count: 0 }));
                 setFoodCard(foodDataWithCount);
             })
@@ -22,7 +21,6 @@ const Card = ({ food }) => {
             return updatedFoodCard;
         });
 
-        // Tanınan ürünün ID'sini "shop" dizisine ekleyelim
         const selectedProduct = FoodCard.find(el => el._id === _id);
         if (selectedProduct) {
             const shop = JSON.parse(localStorage.getItem('shop') || '[]');
@@ -51,7 +49,7 @@ const Card = ({ food }) => {
                                     </p>
                                 </div>
                             </div>
-
+                        
                             <footer className="d-flex align-items-center justify-content-between">
                                 <div className="star">
                                     <i className="fas fa-star"></i>

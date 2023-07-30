@@ -32,7 +32,7 @@ function Sidebar() {
                     <span>YANGI OVQATLAR QO’SHISH</span>
                 </Link>
 
-                <Link to='/order-count' className={hover === 'order' ? 'hover' : ''} onClick={() => setHover('order')}>
+                <Link to='/myadmin/orders' className={hover === 'order' ? 'hover' : ''} onClick={() => setHover('order')}>
                     <img src={viewOrder} alt="viewOrder" />
                     <span>BUYURTMALARNI KO’RISH</span>
                 </Link>

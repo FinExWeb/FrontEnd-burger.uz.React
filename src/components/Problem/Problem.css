@@ -112,3 +112,22 @@ textarea {
         font-size: 15px;
     }
 }
+
+
+@media screen and (max-width: 1366px) {
+    .container .form form input, textarea{
+        width: 450px;
+        padding: 20px;
+        font-size: 14px;
+    }
+    .container .form form textarea{
+        height: 7em;
+    }
+    .container .form h1{
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .container .form {
+        height: 90vh;
+    }
+}

@@ -1,0 +1,91 @@
+.card-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.09);
+    margin: 10px 0;
+}
+
+.card-app .product--name--image img {
+    width: 70px;
+}
+
+.card-app .product--name--image section .product--name {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.fbc {
+    max-width: 500px;
+}
+.card-app .product--name--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-app .product--name--image #product--btns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.card-app .product--name--image #product--btns button {
+    padding: 1px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #6C5FBC;
+    margin: 2.5px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+}
+
+.card-app .product--buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-app .product--buttons button {
+    margin: 10px 0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 2px 30px;
+    border: none;
+    outline: none;
+    width: 150px;
+}
+
+.card-app .product--buttons button:nth-child(1) {
+    border-radius: 5px;
+    background: #7569C0;
+}
+
+.card-app .product--buttons button:nth-child(2) {
+    border-radius: 5px;
+    background: #0FBE00;
+}
+
+.card-app hr {
+    width: 100px;
+    height: 1px;
+    transform: rotate(90deg);
+}
+
+.card-app .product--location p {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 0;
+}
